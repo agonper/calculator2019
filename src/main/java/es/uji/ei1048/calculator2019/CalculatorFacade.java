@@ -1,14 +1,13 @@
 package es.uji.ei1048.calculator2019;
 
-import es.uji.ei1048.calculator2019.divisision.SimpleDivider;
-import es.uji.ei1048.calculator2019.multiplication.SimpleMultiplier;
+import es.uji.ei1048.calculator2019.operations.SimpleOperation;
 
 public class CalculatorFacade {
 
-    private final SimpleMultiplier multiplier;
-    private final SimpleDivider divider;
+    private final SimpleOperation multiplier;
+    private final SimpleOperation divider;
 
-    public CalculatorFacade(SimpleMultiplier multiplier, SimpleDivider divider) {
+    public CalculatorFacade(SimpleOperation multiplier, SimpleOperation divider) {
         this.multiplier = multiplier;
         this.divider = divider;
     }

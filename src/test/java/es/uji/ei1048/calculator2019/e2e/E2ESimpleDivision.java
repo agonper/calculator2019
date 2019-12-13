@@ -1,8 +1,6 @@
 package es.uji.ei1048.calculator2019.e2e;
 
-import es.uji.ei1048.calculator2019.divisision.ZeroDivisionException;
-import org.junit.After;
-import org.junit.Before;
+import es.uji.ei1048.calculator2019.operations.divisision.ZeroDivisionException;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
